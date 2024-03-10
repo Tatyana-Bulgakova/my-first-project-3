@@ -31,7 +31,7 @@ ul {
   padding-left: 0;
 }
 
-.imj {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -177,12 +177,17 @@ ul {
 
 .advantages-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  gap: 24px;
 }
 
 .advantages-list-title {
   width: calc((100% - 72px) / 4);
+  margin-right: 24px;
+}
+
+.advantages-list-title-technologies {
+  width: calc((100% - 72px) / 4);
+  margin-right: 0;
 }
 
 .advantages-title {
@@ -227,6 +232,10 @@ ul {
   padding-bottom: 120px;
 }
 
+.team-members {
+  padding: 32px 0;
+}
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -247,6 +256,7 @@ ul {
   color: #2e2f42;
   background-color: #fff;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .list-text {
@@ -320,6 +330,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-color-web {
@@ -330,4 +342,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
