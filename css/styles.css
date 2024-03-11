@@ -140,6 +140,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  text-align: center;
   margin: 0 auto;
   width: 496px;
 }
@@ -182,12 +183,6 @@ ul {
 
 .advantages-list-title {
   width: calc((100% - 72px) / 4);
-  margin-right: 24px;
-}
-
-.advantages-list-title-technologies {
-  width: calc((100% - 72px) / 4);
-  margin-right: 0;
 }
 
 .advantages-title {
@@ -309,6 +304,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-row {
+  padding: 32px 16px;
+  border-top: none;
+  bottom: 1px solid #e7e9fc;
 }
 
 .color-footer {
